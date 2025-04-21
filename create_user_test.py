@@ -105,13 +105,6 @@ def  test_create_user_number_type_first_name_get_error_response():
     print(f'\nStatus_code = {response.status_code}')
     print(f'json = {response.json()}')
 
-
-#print('\n\tPRUEBA 1: Para un nombre de usuario de 2 caracteres "Aa":')
-#print(f'\nDatos del usuario enviados: \n\t{get_user_body("Aa")}')
-#response = sender_stand_request.post_new_user(get_user_body("Aa"))  # response = la función post_new_user en el archivo sender_stand_request.py, la cual utiliza en el cuerpo de la solicitud .post,
-#print(f'\nStatus_code = {response.status_code}')                    #            la copia modificada en la función get_user_body, del diccionario user_body en el archivo data.py
-#print(f'json = {response.json()}')
-
 test_create_user_2_letter_in_first_name_get_success_response()
 
 test_create_user_15_letter_in_first_name_get_success_response()
