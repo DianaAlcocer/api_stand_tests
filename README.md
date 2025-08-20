@@ -4,8 +4,7 @@
 
 ### Descripción
 
-Se automatizaron pruebas exploratorias para el parámetro "firstName" en la solicitud JSON para crear un nuevo usuario, 
-empleado su API en Python.
+Se automatizaron pruebas para el parámetro "firstName" al crear un nuevo usuario.
 
 ### Contenido
 
@@ -55,3 +54,4 @@ create_user_test.py
     ``` 
 - El comando _pytest_ ejecutará los archivos que comienzan con test_ o terminan con _test dentro de la ruta 
 del proyecto especificada, no distingue entre mayúsculas y minúsculas.
+
