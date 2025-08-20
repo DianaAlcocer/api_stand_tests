@@ -1,7 +1,5 @@
 ﻿# Proyecto api_stand_tests - Sp_7
 
-### Pruebas automatizadas para el parámetro "firstName" al crear un usuario
-
 ### Descripción
 
 Se automatizaron pruebas para el parámetro "firstName" al crear un nuevo usuario.
@@ -54,4 +52,5 @@ create_user_test.py
     ``` 
 - El comando _pytest_ ejecutará los archivos que comienzan con test_ o terminan con _test dentro de la ruta 
 del proyecto especificada, no distingue entre mayúsculas y minúsculas.
+
 
